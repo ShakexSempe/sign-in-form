@@ -49,7 +49,7 @@ body{
     padding: 4rem 2rem;
     border-radius: 1rem;
     background-color: #fff;
-    box-shadow: 30px 30px 15px rgba(171, 171, 175, 0.185);
+    box-shadow: 20px 30px 10px rgba(171, 171, 175, 0.185);
 }
 .form-title{
     font-weight: 500;
@@ -145,4 +145,10 @@ footer{
     text-align: center;
     padding: 2px;
     margin: 5px;
+}
+
+@media only screen and (max-width: 400px) {
+    .form {
+        width: 90vw;
+    }
 }
