@@ -33,7 +33,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(35deg, #000, rgb(1, 1, 49), rgb(6, 199, 6));
+    background: linear-gradient(35deg, #000, rgb(1, 1, 49), rgb(6, 121, 6));
     background-size: 340%;
     background-position: left;
     animation: animate 5s ease-in-out infinite alternate;
