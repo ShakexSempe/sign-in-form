@@ -49,12 +49,14 @@ body{
     padding: 4rem 2rem;
     border-radius: 1rem;
     background-color: #fff;
-    box-shadow: 0 10px 25px rgba(92, 99, 105,.2);
+    box-shadow: 30px 30px 15px rgba(171, 171, 175, 0.185);
 }
 .form-title{
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 3rem;
     color: darkblue;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 139, 0.233);
 }
 .form-div{
     position: relative;
@@ -73,6 +75,8 @@ body{
     outline: none;
     padding: 1rem;
     background: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 139, 0.233);
+
 }
 .form-label{
     position: absolute;
@@ -83,6 +87,7 @@ body{
     color: var(--input-color);
     font-size: var(--normal-font-size);
     transition: .3s;
+    
 }
 .form-btn{
     display: block;
@@ -96,9 +101,12 @@ body{
     border-radius: .5rem;
     cursor: pointer;
     transition: .3s;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+
+
 }
 .form-btn:hover{
-    box-shadow: 0 10px 36px rgba(0,0,0,.5);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.295);
 }
 /*form*/
 
@@ -124,6 +132,8 @@ body{
 /*input focus*/
 .form-input:focus{
     border: 1.5px solid var(--first-color);
+    box-shadow: 5px 5px 2px rgba(0, 0, 139, 0.233);
+
 }
 /*end of input focus*/
 
